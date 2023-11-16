@@ -8,10 +8,11 @@
         "vscode": {
             "extensions": [
                 "dbaeumer.vscode-eslint",
+                "ms-azuretools.vscode-docker",
                 "eamodio.gitlens",
                 "visualstudioexptteam.vscodeintellicode",
                 "esbenp.prettier-vscode",
-                "github.copilot"
+                "vscodevim.vim"
             ],
             "settings": {}
         }
