@@ -1,0 +1,7 @@
+{
+    "presets": [
+        "@babel/preset-env", // Transpiles ES6 and later syntax
+        "@babel/preset-react", // Transpiles JSX
+        "@babel/preset-typescript" // Transpiles TypeScript
+    ]
+}
