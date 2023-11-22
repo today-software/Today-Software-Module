@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #0C41FF;
+  --primary-color-hover:#2A45A6;
+  --red:#F54D4D ;
+  --red-pastel: #FFDDDD;
+  --red-pastel-darker: #FDB7B7 ;
+  --red-darker: #BE1A1A;
+  --red-dark: #721818;
+  --amber: #F6B610;
+  --amber-pastel: #FFEBB7;
+  --amber-pastel-darker: #E7C160;
+  --amber-darker:#D29B0A ;
+  --amber-dark: #684D08;
+  --green: #55D28F;
+  --green-pastel: #BDFFDB;
+  --green-pastel-darker:#8FDCB2 ;
+  --green-darker: #3BA86E;
+  --green-dark:#2C5A41 ;
+  --blue: #3849E0;
+  --blue-pastel: #BFC6FF;
+  --blue-pastel-darker:#939EFF ;
+  --blue-darker: #2937B5;
+  --blue-dark: #131C6D;
+  --purple: #6438E0;
+  --purple-pastel: #D6C8FF;
+  --purple-pastel-darker:#A384FF ;
+  --purple-darker:#3A14A8 ;
+  --purple-dark:#341D76;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+select {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  all:unset;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+
+.font-size-small {
+  font-size: 12px;
+}
+
+.font-size-xsmall {
+  font-size: 10px;
+}
+
+/* Mobile Devices*/
+@media screen and (max-width: 700px) {
+  .button-text {
+      display: none;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  h4 {
+    font-size: 14px;
+  }
+  
+}
