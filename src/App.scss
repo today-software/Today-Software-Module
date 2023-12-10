@@ -33,10 +33,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-select {
-  font-family: 'Poppins', sans-serif;
-}
-
 h1, h2, h3, h4 {
   all:unset;
 }
@@ -57,7 +53,6 @@ h4 {
   font-size: 18px;
 }
 
-
 .font-size-small {
   font-size: 12px;
 }
@@ -68,10 +63,6 @@ h4 {
 
 /* Mobile Devices*/
 @media screen and (max-width: 700px) {
-  .button-text {
-      display: none;
-  }
-
   h1 {
     font-size: 16px;
   }
