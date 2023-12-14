@@ -2,10 +2,10 @@
     padding:1rem;
 
     .left-content {
-    display: flex;
-    gap:2rem;
-    justify-self: center;
-    align-items: center;
+        display: flex;
+        gap: 2rem;
+        justify-self: center;
+        align-items: center;
     }
 }
 
@@ -19,7 +19,7 @@
         padding:0.5rem;
 
         .left-content {
-        gap:0.5rem;
+            gap:0.5rem;
         }
        
         .add-event-button-full {
