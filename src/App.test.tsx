@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Toolbar from './components/toolbar';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Hello World!/i);
-  expect(linkElement).toBeInTheDocument();
+describe('Toolbar component', () => {
+  it('renders without crashing', () => {
+    render(<Toolbar />);
+  });
 });
