@@ -1,5 +1,5 @@
 import React from "react";
-import "./FourOhFour.scss";
+import "./404.scss";
 
 const FourOhFour = () => {
     return (
